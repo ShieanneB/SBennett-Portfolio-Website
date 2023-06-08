@@ -1,0 +1,43 @@
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.flex-container > div {
+    margin: 10px;
+    text-align: center;
+}
+
+.img-banners {
+    max-width: 100%;
+}
+
+body {
+    background-color: azure;
+    align-content: center;
+}
+
+footer {
+    background-color: lightblue;
+    padding: 0.5px;
+}
+
+.footer-content {
+    margin-left: 6px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 98%;
+}
+
+.nav-img {
+    max-width: 100%;
+}
+
+.cover {
+    width: 98%;
+}
