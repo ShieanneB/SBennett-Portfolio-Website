@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html>
-    <head lang="en">
+<html lang="en">
+    <head>
         <meta charset="utf-8">
         <title>
             Shieanne Bennett
@@ -10,30 +10,35 @@
     
     <body>
         <header id="home">
-            <img class="cover" src="images/header.png" alt="Website cover photo of myself with the phrase Hey there! You've made it to my portfolio! Enjoy!"/>
+            <img class="cover" src="images/header.png" alt="Website cover photo of myself with the phrase Hey there! You've made it to my portfolio! Enjoy!">
         </header>
         <nav>
             <!-- Navigation bar is an image links, so menu lists are unecessary -->
             <div>
                 <a href="#about">
-                    <img class="nav-img" src="images/about.png"/>
+                    <img class="nav-img" src="images/about.png" alt="Image link used for site navigation to the about section.">
                 </a>
             </div>
             <div>
                 <a href="#home">
-                    <img class="nav-img" src="images/home.png"/>
+                    <img class="nav-img" src="images/home.png" alt="Image link used for site navigation to the home.">
                 </a>
             </div>
             <div>
                 <a href="#projects">
-                    <img class="nav-img" src="images/projects.png"/>
+                    <img class="nav-img" src="images/projects.png" alt="Image link used for site navigation to the projects section.">
                 </a>
             </div>
         </nav>
 
         <div class="flex-container">
-            <div>
-                <img src="images/artwork.png">
+            <div class="flex-imgs">
+                <div>
+                    <img src="images/artwork.png" alt="Image of a digital self portrait I made in a polaroid frame.">
+                </div>
+                <div>
+                    <img src="images/pirate.png" alt="Image of myself in a pirate costume.">
+                </div>
             </div>
             <div id="about">
                 <h1>
@@ -46,13 +51,13 @@
 
         <div class="flex-container">
             <div>
-                <img class="img-banners" src="images/anna.png">
+                <img class="img-banners" src="images/anna.png" alt="Image of me as princess Anna for a child's birthday party.">
             </div>
             <div>
-                <img class="img-banners" src="images/skeleton.png">
+                <img class="img-banners" src="images/skeleton.png" alt="Image of a skeleton decoration in a restaurant in Grand Bend.">
             </div>
             <div>
-                <img class="img-banners" src="images/playground.png">
+                <img class="img-banners" src="images/playground.png" alt="Image of myself just after sunset on a playground.">
             </div>
         </div>
 
@@ -68,19 +73,31 @@
                 </h2>
                 <p>In my previous semester, I completed a project within a group for a database course where we had to develop a hospital management system using MSSQL. Our group decided to try implementing this database into a website using Django. This was my first time working with Django and we didn't complete the GUI portion of the project however everything we did manage to complete can be found in the <a href="https://github.com/pekcus/C3150">GitHub.</a></p>
             </div>
-            <div>
-                <img src="images/kayak.png">
+            <div class="flex-imgs">
+                <div>
+                    <img src="images/kayak.png" alt="Image of the front of my kayak looking out at Peche island.">
+                </div>
+                <div>
+                    <img src="images/cali.png" alt="Image of my family's dog.">
+                </div>
             </div>
         </div>
+    
+        <footer>
+            <div>
+                <ul class="footer-content">
+                    <li>
+                        <p><a href="#about" class="nav-text">About</a></p>
+                    </li>
+                    <li>
+                        <p><a href="#home" class="nav-text">Home</a></p>
+                    </li>
+                    <li>
+                        <p><a href="#projects" class="nav-text">Projects</a></p>
+                    </li>
+                </ul>
+            </div>
+        </footer>
         
     </body>
-    
-    <br>
-    
-    <footer>
-        <div class="footer-content">
-            <h3> Contact me! </h3>
-            <p>Check out my <a href="https://github.com/ShieanneB">GitHub!</a></p>
-        </div>
-    </footer>
 </html>

@@ -2,10 +2,12 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+    margin-bottom: 25px;
 }
 
 .flex-container > div {
     margin: 10px;
+    max-width: 50%;
     text-align: center;
 }
 
@@ -16,15 +18,28 @@
 body {
     background-color: azure;
     align-content: center;
+    margin-bottom: 100px; /* This bottom margin accounts for the size of the navigation footer to prevent content in the body from being covered. */
 }
 
 footer {
     background-color: lightblue;
-    padding: 0.5px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 75px;
+    padding-bottom: 5px;
 }
 
 .footer-content {
-    margin-left: 6px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    place-content: space-evenly;
+}
+
+.nav-text {
+    color: black;
 }
 
 nav {
@@ -40,4 +55,11 @@ nav {
 
 .cover {
     width: 98%;
+}
+
+.flex-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
 }
